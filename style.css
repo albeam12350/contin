@@ -3,27 +3,33 @@
 
 #barrita{
 	width:auto;
-	height:30px;
+	height:1.875em;
 	background:#033;
 }
 #banner{
 	width:auto;
-	height:150px;
+	height:9.375em;
 	background:#57F;
 }
 #contenido{
-	padding:10px;
-	margin:60px;
-	width:750px;
-	height:1500px;
+	padding:1em;
+	margin:3.7em;
+	width:46.875em;
+	height:93.75em;
 	background:#ddd;
 }
 .cajas{
 	background:#FFF;
-	padding:20px;
-	margin:15px;	
+	padding:1.25em;
+	margin:1em;	
 }
 .link_ver_texto{
+	font-size:1.25em;
+}
+.nombre{
 	color:#0CF;	
+}
+.avatar{
+	width:4.375em;
 }
 
