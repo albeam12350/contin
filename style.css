@@ -32,4 +32,11 @@
 .avatar{
 	width:4.375em;
 }
+#my_avatar{
+	border-radius:50%;
+	width:4em;
+}
+#encabesado{
+	color:#FC0;
+}
 
