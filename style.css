@@ -1,8 +1,15 @@
 @charset "utf-8";
 
+#lista{
+	background:#FC3;
+	list-style:none;
+}
+#menu{
+	margin:-1em;
+	padding:0em;
+}
+
 #banner{
-	width:auto;
-	height:auto;
 	background:#099;
 	overflow:hidden;
 }
@@ -20,10 +27,6 @@
 	size:.3em;
 	color:#FFF;
 	margin-right:.5em;
-}
-#menu{
-	background:#FC3;
-	
 }
 #my_avatar{
 	display:inline-block;
@@ -64,4 +67,16 @@
 }
 .textos{
 	display:inline-block;
+}
+.nav{
+	display:inline-block;
+	color:#FFF;
+	padding:.5em;
+	font-size:1em;
+}
+#publicar{
+	background:#6F9;
+	border-radius:30%;
+	position:relative;
+	margin-right:0;
 }
