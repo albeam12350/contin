@@ -1,45 +1,66 @@
 @charset "utf-8";
 
-#barrita{
-	width:auto;
-	height:1.875em;
-	background:#033;
-}
 #banner{
 	width:auto;
-	height:9.375em;
+	height:auto;
 	background:#57F;
+	overflow:hidden;
 }
 #contenido{
-	padding:1em;
-	margin:3.7em;
-	width:46.875em;
+	padding:.5em;
+	margin:0.5em;
+	margin-top:2em;
+	width:23.5em;
 	height:93.75em;
 	background:#ddd;
+	
+}
+#mi_nombre{
+	float:right;
+	size:.8em;
+	color:#FFF;
+	margin-right:.5em;
+	margin-top:1.8em;
 }
 #my_avatar{
+	margin-top:.5em;
+	float:right;
 	border-radius:50%;
-	width:4em;
-	display:inline-block;
+	width:3.5em;
+	margin-bottom:.2em;
+}
+
+#logo{
+	float:left;
+	width:5em;
+	margin:.5em;
 }
 #encabesado{
+	float:left;
 	color:#FC0;
-	display:inline-block;
-	margin-left:4em;
+	font-size:1.3em;
+	margin-top:1.3em;
+	margin-left:.3em;
+	font-style:normal;
+	margin-right:.5em;
 }
 
 /*      clases         */
 .cajas{
 	background:#FFF;
 	padding:1.25em;
-	margin:1em;	
+	margin:1em;
 }
 .link_ver_texto{
 	font-size:1.25em;
 }
 .nombre{
 	color:#0CF;	
+	float:right;
 }
 .avatar{
-	width:4.375em;
+	width:3em;
+}
+.textos{
+	display:inline-block;
 }
