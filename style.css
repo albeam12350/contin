@@ -3,7 +3,7 @@
 #banner{
 	width:auto;
 	height:auto;
-	background:#57F;
+	background:#099;
 	overflow:hidden;
 }
 #contenido{
@@ -16,20 +16,24 @@
 	
 }
 #mi_nombre{
-	float:right;
-	size:.8em;
+	display:inline-block;
+	size:.3em;
 	color:#FFF;
 	margin-right:.5em;
-	margin-top:1.8em;
+}
+#menu{
+	background:#FC3;
+	
 }
 #my_avatar{
-	margin-top:.5em;
-	float:right;
+	display:inline-block;
+	margin-bottom:-1em;
 	border-radius:50%;
-	width:3.5em;
-	margin-bottom:.2em;
+	width:3em;
 }
-
+#yo{
+	float:right;
+}
 #logo{
 	float:left;
 	width:5em;
@@ -37,12 +41,9 @@
 }
 #encabesado{
 	float:left;
-	color:#FC0;
+	color:#FFF;
 	font-size:1.3em;
-	margin-top:1.3em;
-	margin-left:.3em;
-	font-style:normal;
-	margin-right:.5em;
+	margin:1.3em,.3em,0,.5em;
 }
 
 /*      clases         */
