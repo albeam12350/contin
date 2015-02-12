@@ -5,7 +5,6 @@
 	background:#FC3;
 	list-style:none;
 	margin-top:0px;
-	position:relative;
 }
 
 #banner{
@@ -24,6 +23,7 @@
 	font-size:16px;
 	color:#FFF;
 	margin-right:.5em;
+	
 }
 #my_avatar{
 	display:inline-block;
@@ -50,27 +50,53 @@
 }
 
 /*      clases         */
+
+
+/*     Notas    */
 .cajas{
 	background:#FFF;
 	padding:1.25em;
 	margin:1em;
+	overflow:hidden;
 }
-.link_ver_texto{
+
+.texto{
+	font-weight:bold;
 	font-size:16px;
-	background:#C93;
-	
 }
 .nombre{
-	color:#0CF;	
-	background:#000;
-	
+	color:#0CF;
+	font-size:14px;
+}
+.nombre:before{
+	color:#666;
+	content:"Por : "
 }
 .avatar{
+	margin-right:.3em;
+	float:left;
 	width:3em;
-	display:inline-block;
 }
-.textos{
+.categoria{
+	font-size:14px;
+	background:#CF3;
+	padding:4px;
+	border-radius:5px;
 	
+	margin:2px;
+}
+.tiempo:before{
+	float:right;
+	content:"5min";
+	font-size:14px;
+	color:#666;
+}
+
+/*     Menu    */
+
+
+.nav:first-child{
+	padding-left:0em;
 }
 .nav{
 	color:#FFF;
@@ -78,17 +104,16 @@
 	font-size:16px;
 	display:inline-block;
 	text-shadow: 2px 2px 5px #666;
-	
+	font-size:16px;
 }
 #publicar{
 	background:#6F9;
 	border-radius:5%;
-	position:absolute;
 	margin-top:-.9em;
-	margin-left:.5em;
-	padding:1.1em;
+	margin-right:0;
+	padding:.8em;
 	font-style:italic;
-	
+	box-shadow: 2px 2px 5px #666;
 }
 .nav a{
 	text-decoration:none;
