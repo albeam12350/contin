@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+body{
+	font-family:"Arimo"
+}
 
 #lista{
 	background:#FC3;
@@ -67,29 +70,33 @@
 .nombre{
 	color:#0CF;
 	font-size:14px;
+	margin-bottom:5px;
+	display:block;
 }
 .nombre:before{
 	color:#666;
-	content:"Por : "
+	content:"Por : ";
 }
 .avatar{
+	
 	margin-right:.3em;
 	float:left;
-	width:3em;
+	width:3.5em;
 }
 .categoria{
 	font-size:14px;
 	background:#CF3;
 	padding:4px;
 	border-radius:5px;
-	
 	margin:2px;
+	float:left;
+	
 }
 .tiempo:before{
-	float:right;
 	content:"5min";
 	font-size:14px;
 	color:#666;
+	float:right;
 }
 
 /*     Menu    */
