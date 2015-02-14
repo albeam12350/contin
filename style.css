@@ -78,7 +78,7 @@ body{
 	content:"Por : ";
 }
 .avatar{
-	
+	border-radius:4px;
 	margin-right:.3em;
 	float:left;
 	width:3.5em;
