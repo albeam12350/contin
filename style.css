@@ -51,7 +51,7 @@
 .icon-info_falsa:before {
 	content: "\e9ff";
 }
-
+/* 		PAGINA		*/
 
 body{
 	font-family:"Arimo"
@@ -91,9 +91,11 @@ body{
 	float:right;
 }
 #logo{
+	border-radius:50%;
 	margin-right:3em;
 	float:left;
 	width:5em;
+	height:5em;
 	margin:.5em;
 }
 #encabesado{
