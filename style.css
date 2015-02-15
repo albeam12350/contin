@@ -64,8 +64,9 @@
 
 body{
 	font-family:"Arimo"
+	padding:.5em;
+	background:#F4F5F5;
 }
-
 #lista{
 	background:#FC3;
 	list-style:none;
@@ -76,11 +77,6 @@ body{
 #banner{
 	background:#099;
 	overflow:hidden;
-}
-#contenido{
-	padding:.5em;
-	background:#F4F5F5;
-	
 }
 #mi_nombre{
 	display:inline-block;
@@ -109,10 +105,9 @@ body{
 #encabesado{
 	float:left;
 	color:#FFF;
-	font-size:1.2em;
+	font-size:1em;
 	margin-left:1em;
 	margin-top:2em;
-	
 }
 
 /*      clases         */
@@ -189,10 +184,16 @@ body{
 	margin-top:-.9em;
 	padding:.8em;
 	font-style:italic;
-	float:
 	box-shadow: 2px 2px 5px #666;
 }
 .nav a{
 	text-decoration:none;
 	color:#FFF;
+}
+@media screen and (min-width:900px){
+	body{
+}
+.cajas{
+	margin-left:2em;
+	width:550px;
 }
