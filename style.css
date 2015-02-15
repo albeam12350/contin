@@ -63,15 +63,23 @@
 /* 		PAGINA		*/
 
 body{
-	font-family:"Arimo"
-	padding:.5em;
-	background:#F4F5F5;
+	font-family:"Arimo";
+	background:#F9F9F9;
 }
+#pie{
+	text-align:center;
+	padding:2em 0;
+	background:#0CC;
+	color:rgba(255, 255, 255, 0.67);
+}
+
+/*    BANNER     */
 #lista{
 	background:#FC3;
 	list-style:none;
 	margin-top:0em;
 	margin-bottom:0em;
+	font-size:1em;
 }
 
 #banner{
@@ -80,7 +88,7 @@ body{
 }
 #mi_nombre{
 	display:inline-block;
-	font-size:1em;
+	font-size:.7em;
 	color:#FFF;
 	margin-right:.5em;
 	
@@ -89,7 +97,8 @@ body{
 	display:inline-block;
 	margin-bottom:-1em;
 	border-radius:50%;
-	width:3em;
+	width:2em;
+	height:2em;
 }
 #yo{
 	float:right;
@@ -98,8 +107,8 @@ body{
 	border-radius:50%;
 	margin-right:3em;
 	float:left;
-	width:5em;
-	height:5em;
+	width:4em;
+	height:4em;
 	margin:.5em;
 }
 #encabesado{
@@ -110,10 +119,42 @@ body{
 	margin-top:2em;
 }
 
-/*      clases         */
+
+
+
+
+/*      Articulos        */
+
+
+
+.articulo{
+	background:#FFF;
+	padding:1.25em;
+	margin:1em;
+	overflow:hidden;
+	text-align:justify;
+}
+.imagen_de_articulo{
+	float:left;
+	margin-bottom:1em;
+	margin-right:1em;
+}
+.parrafo{
+	
+}
+#titulo_artuculo{
+	text-align:center	
+}
+
+
 
 
 /*     Notas    */
+
+
+
+
+
 .cajas{
 	background:#FFF;
 	padding:1.25em;
@@ -190,10 +231,18 @@ body{
 	text-decoration:none;
 	color:#FFF;
 }
-@media screen and (min-width:900px){
-	body{
+@media screen and (min-width:400px){
+#encabesado{
+	font-size:1em;
 }
-.cajas{
-	margin-left:2em;
-	width:550px;
+#mi_nombre{
+	font-size:1em;
+	
+}
+#avatar{
+	width:3em;
+}
+#logo{
+	width:5em;
+	height:5em;
 }
